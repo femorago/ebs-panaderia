@@ -1,11 +1,47 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 header nav {
-  background-color: blue;
+  /* background-color: blue; */
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
 }
 header nav .logo {
-  width: 30%;
+  width: 28%;
+  padding: 8px;
 }
 header nav .logo a img {
   width: 100%;
+}
+header nav ul {
+  list-style: none;
+  font-size: 14px;
+  width: 50%;
+  height: 35px;
+  /* background-color: red; */
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: red;
+  transition: 1s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
 }
 
 /*# sourceMappingURL=styles.css.map */
